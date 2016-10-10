@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.files = ::Dir['lib/**/*.rb', 'test/**/*.{rb,txt,shp,shx,dbf}', '*.md', 'LICENSE.txt']
   spec.test_files = ::Dir.glob('test/**/*_test.rb')
 
-  spec.version = RGeo::Shapefile::VERSION
+  spec.version = "0.3.1"
 
   spec.required_ruby_version = '>= 1.9.3'
 
