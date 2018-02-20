@@ -13,11 +13,11 @@ Gem::Specification.new do |spec|
   spec.files = ::Dir['lib/**/*.rb', 'test/**/*.{rb,txt,shp,shx,dbf}', '*.md', 'LICENSE.txt']
   spec.test_files = ::Dir.glob('test/**/*_test.rb')
 
-  spec.version = "0.3.1"
+  spec.version = "0.3.2"
 
   spec.required_ruby_version = '>= 1.9.3'
 
-  spec.add_dependency 'rgeo', '~> 0.5.2'
+  spec.add_dependency 'rgeo', '~> 1.0.0'
   spec.add_dependency 'dbf', '~> 2.0.13'
 
   spec.add_development_dependency 'bundler', '~> 1.6'
